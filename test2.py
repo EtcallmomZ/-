@@ -20,6 +20,7 @@ filemenu.add_command(label='Impoet csv')
 #คือการสั่งให้ใส่ชื่อเมนูเข้าไป
 #Help menu
 def About():
+    print('hi taeyeon')
     messagebox.showinfo('About','สวัสดีผู้มีอุปการะคุณทุกท่านโปรดทราบ\nไม่มีอะไรมากเดี้ยนแค่เหงาฮ้า')
 
 helpmenu = Menu(menubar,tearoff=0)
